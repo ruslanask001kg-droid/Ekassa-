@@ -44,8 +44,8 @@ def support_url():
     return f"tg://user?id={OPERATOR_ID}"
 
 BOT_NAME = "EkassaKG"
-MIN_DEPOSIT = 100
-MAX_DEPOSIT = 500000
+MIN_DEPOSIT = 50
+MAX_DEPOSIT = 50000
 BOT_USERNAME = "EkassaKG_bot"
 
 
