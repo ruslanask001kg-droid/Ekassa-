@@ -30,10 +30,10 @@ if not TOKEN or len(TOKEN) < 40:
     logger.error("ТОКЕН НЕ НАЙДЕН!")
     raise SystemExit("No token")
 
-MAIN_ADMIN = 8610237951
+MAIN_ADMIN = 8992968778
 ADMIN_PIN = os.environ.get("ADMIN_PIN", "1905")
-OPERATOR_ID = int(os.environ.get("OPERATOR_ID", "8610237951"))
-SUPPORT = os.environ.get("SUPPORT", "DarkBossX7")
+OPERATOR_ID = int(os.environ.get("OPERATOR_ID", "8992968778"))
+SUPPORT = os.environ.get("SUPPORT", "@KGSOwner099")
 
 CHANNEL_USERNAME = os.environ.get("CHANNEL_USERNAME", "razrab_botovKG")
 CHANNEL_URL = f"https://t.me/{CHANNEL_USERNAME.lstrip('@')}"
